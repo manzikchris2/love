@@ -24,6 +24,7 @@ body{
     justify-content: center;
 }
 #btn_y{
+    color: black;
     background-color: pink;
     border: none;
     padding: 15px 25px;
@@ -32,6 +33,7 @@ body{
 
 }
 #btn_n{
+    color: black;
     background-color: lightgray;
     border: none;
     padding: 15px 25px;

@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    background-color: pink;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#container{
+    display: grid;
+    grid-template-rows: 1fr auto auto ;
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    height: auto;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#heart{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+#btn_y{
+    background-color: pink;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+#btn_n{
+    background-color: lightgray;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#imgt{
+    height: 50px;
+    width: 50px;
+}
